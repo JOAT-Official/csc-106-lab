@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" fill="none">
+  <rect width="800" height="500" fill="#141413"/>
+  <!-- Subtle architectural grid -->
+  <line x1="0" y1="64" x2="800" y2="64" stroke="#27272A" stroke-width="1"/>
+  <line x1="210" y1="64" x2="210" y2="500" stroke="#27272A" stroke-width="1"/>
+  <!-- Top Window Bar -->
+  <circle cx="28" cy="32" r="5" fill="#57534E"/>
+  <circle cx="46" cy="32" r="5" fill="#57534E"/>
+  <circle cx="64" cy="32" r="5" fill="#D97706"/>
+  <text x="92" y="37" fill="#A8A29E" font-family="monospace" font-size="12" letter-spacing="1.5">INSURAFIX // SUBSCRIPTION MAINTENANCE OS</text>
+  <rect x="660" y="20" width="112" height="24" rx="12" fill="#27272A"/>
+  <text x="680" y="36" fill="#F59E0B" font-family="monospace" font-size="11">ZERO LABOR FEE</text>
+
+  <!-- Sidebar Navigation -->
+  <text x="28" y="102" fill="#78716C" font-family="monospace" font-size="10" letter-spacing="1.5">WORKSPACE</text>
+  <rect x="20" y="116" width="170" height="34" rx="6" fill="#222220"/>
+  <rect x="20" y="116" width="3" height="34" fill="#D97706"/>
+  <text x="36" y="137" fill="#FAF8F5" font-family="sans-serif" font-size="12" font-weight="600">Active Coverage</text>
+  <text x="36" y="175" fill="#A8A29E" font-family="sans-serif" font-size="12">Vetted Artisans (148)</text>
+  <text x="36" y="210" fill="#A8A29E" font-family="sans-serif" font-size="12">Dispatch Queue</text>
+  <text x="36" y="245" fill="#A8A29E" font-family="sans-serif" font-size="12">Subscription Tiers</text>
+
+  <!-- Subscription Status Card -->
+  <rect x="20" y="350" width="170" height="120" rx="8" fill="#1C1C1A" stroke="#2E2E2B"/>
+  <text x="34" y="376" fill="#A8A29E" font-family="monospace" font-size="10">PLAN STATUS</text>
+  <text x="34" y="400" fill="#FAF8F5" font-family="sans-serif" font-size="15" font-weight="700">Premium Shield</text>
+  <text x="34" y="422" fill="#D97706" font-family="monospace" font-size="12">100% Labor Covered</text>
+  <rect x="34" y="440" width="142" height="6" rx="3" fill="#2E2E2B"/>
+  <rect x="34" y="440" width="118" height="6" rx="3" fill="#D97706"/>
+
+  <!-- Main Dashboard Area -->
+  <text x="240" y="106" fill="#FAF8F5" font-family="sans-serif" font-size="20" font-weight="700">Home &amp; Facility Maintenance Dispatch</text>
+  <text x="240" y="128" fill="#A8A29E" font-family="sans-serif" font-size="12">On-demand vetted electrical, plumbing &amp; HVAC specialists with zero extra labor charges.</text>
+
+  <!-- KPI Row -->
+  <rect x="240" y="150" width="165" height="90" rx="8" fill="#1C1C1A" stroke="#2E2E2B"/>
+  <text x="256" y="176" fill="#A8A29E" font-family="monospace" font-size="10">AVG DISPATCH TIME</text>
+  <text x="256" y="212" fill="#FAF8F5" font-family="sans-serif" font-size="26" font-weight="700">24m 10s</text>
+  <text x="256" y="228" fill="#22C55E" font-family="monospace" font-size="10">+18% faster SLA</text>
+
+  <rect x="420" y="150" width="165" height="90" rx="8" fill="#1C1C1A" stroke="#2E2E2B"/>
+  <text x="436" y="176" fill="#A8A29E" font-family="monospace" font-size="10">LABOR COST SAVED</text>
+  <text x="436" y="212" fill="#D97706" font-family="sans-serif" font-size="26" font-weight="700">₦485,000</text>
+  <text x="436" y="228" fill="#A8A29E" font-family="monospace" font-size="10">14 Repairs Completed</text>
+
+  <rect x="600" y="150" width="170" height="90" rx="8" fill="#1C1C1A" stroke="#2E2E2B"/>
+  <text x="616" y="176" fill="#A8A29E" font-family="monospace" font-size="10">ARTISAN TRUST SCORE</text>
+  <text x="616" y="212" fill="#FAF8F5" font-family="sans-serif" font-size="26" font-weight="700">4.94 / 5.0</text>
+  <text x="616" y="228" fill="#F59E0B" font-family="monospace" font-size="10">KYC + Skill Verified</text>
+
+  <!-- Active Service Ticket Panel -->
+  <rect x="240" y="260" width="530" height="210" rx="8" fill="#1C1C1A" stroke="#2E2E2B"/>
+  <text x="262" y="290" fill="#FAF8F5" font-family="sans-serif" font-size="14" font-weight="600">Live Repair Tickets &amp; Artisan Verification</text>
+  <line x1="240" y1="306" x2="770" y2="306" stroke="#2E2E2B"/>
+
+  <!-- Row 1 -->
+  <circle cx="272" cy="336" r="14" fill="#27272A"/>
+  <text x="267" y="340" fill="#FAF8F5" font-family="monospace" font-size="11">EL</text>
+  <text x="298" y="333" fill="#FAF8F5" font-family="sans-serif" font-size="13" font-weight="600">Inverter &amp; Distribution Board Diagnostics</text>
+  <text x="298" y="350" fill="#A8A29E" font-family="sans-serif" font-size="11">Assigned: Engr. Tunde B. (Master Electrician • ID #INS-409)</text>
+  <rect x="646" y="324" width="104" height="24" rx="12" fill="#27221A" stroke="#D97706"/>
+  <text x="664" y="340" fill="#F59E0B" font-family="monospace" font-size="10">EN ROUTE • ₦0</text>
+
+  <line x1="262" y1="368" x2="750" y2="368" stroke="#27272A"/>
+
+  <!-- Row 2 -->
+  <circle cx="272" cy="398" r="14" fill="#27272A"/>
+  <text x="267" y="402" fill="#FAF8F5" font-family="monospace" font-size="11">PL</text>
+  <text x="298" y="395" fill="#FAF8F5" font-family="sans-serif" font-size="13" font-weight="600">Pressure Pump &amp; Valve Replacement</text>
+  <text x="298" y="412" fill="#A8A29E" font-family="sans-serif" font-size="11">Assigned: Musa K. (Certified Plumber • ID #INS-218)</text>
+  <rect x="646" y="386" width="104" height="24" rx="12" fill="#192B20" stroke="#22C55E"/>
+  <text x="662" y="402" fill="#4ADE80" font-family="monospace" font-size="10">COMPLETED • ₦0</text>
+
+  <line x1="262" y1="430" x2="750" y2="430" stroke="#27272A"/>
+  <text x="262" y="454" fill="#A8A29E" font-family="monospace" font-size="11">SUBSCRIPTION COVERAGE: ALL LABOR FEES WAIVED UNDER ACTIVE MEMBERSHIP</text>
+</svg>

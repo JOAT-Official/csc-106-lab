@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" fill="none">
+  <rect width="800" height="500" fill="#131312"/>
+  <line x1="0" y1="64" x2="800" y2="64" stroke="#27272A" stroke-width="1"/>
+  <circle cx="28" cy="32" r="5" fill="#57534E"/>
+  <circle cx="46" cy="32" r="5" fill="#57534E"/>
+  <circle cx="64" cy="32" r="5" fill="#D97706"/>
+  <text x="92" y="37" fill="#A8A29E" font-family="monospace" font-size="12" letter-spacing="1.5">FRANCHISE OS // MANAGEMENT + CUSTOMER APP + KDS SUITE</text>
+  <rect x="646" y="20" width="126" height="24" rx="12" fill="#27272A"/>
+  <text x="664" y="36" fill="#4ADE80" font-family="monospace" font-size="10">8 OUTLETS LIVE</text>
+
+  <!-- 3-Pillar Architecture Cards -->
+  <!-- Pillar 1: Kitchen Display System (KDS) -->
+  <rect x="28" y="92" width="236" height="376" rx="8" fill="#1B1B19" stroke="#2D2D2A"/>
+  <rect x="28" y="92" width="236" height="44" rx="8" fill="#242320"/>
+  <text x="46" y="119" fill="#F59E0B" font-family="monospace" font-size="11" font-weight="700">01 // KDS TICKET QUEUE</text>
+
+  <rect x="44" y="152" width="204" height="94" rx="6" fill="#141413" stroke="#D97706"/>
+  <text x="58" y="174" fill="#FAF8F5" font-family="monospace" font-size="12" font-weight="700">#ORD-884 • DINE-IN</text>
+  <text x="190" y="174" fill="#F59E0B" font-family="monospace" font-size="11">03:12</text>
+  <text x="58" y="198" fill="#D6D3D1" font-family="sans-serif" font-size="11">• 2x Smokehouse Burger</text>
+  <text x="58" y="216" fill="#D6D3D1" font-family="sans-serif" font-size="11">• 1x Spiced Plantain Fries</text>
+  <text x="58" y="234" fill="#4ADE80" font-family="monospace" font-size="10">STATION: GRILL + FRY</text>
+
+  <rect x="44" y="260" width="204" height="94" rx="6" fill="#141413" stroke="#2E2E2B"/>
+  <text x="58" y="282" fill="#FAF8F5" font-family="monospace" font-size="12" font-weight="700">#ORD-885 • DELIVERY</text>
+  <text x="190" y="282" fill="#4ADE80" font-family="monospace" font-size="11">01:45</text>
+  <text x="58" y="306" fill="#D6D3D1" font-family="sans-serif" font-size="11">• 3x Jollof Rice &amp; Grilled Wing</text>
+  <text x="58" y="324" fill="#D6D3D1" font-family="sans-serif" font-size="11">• 3x Citrus Zobo Cooler</text>
+  <text x="58" y="342" fill="#A8A29E" font-family="monospace" font-size="10">STATION: EXPEDITE</text>
+
+  <rect x="44" y="370" width="204" height="78" rx="6" fill="#141413" stroke="#2E2E2B"/>
+  <text x="58" y="394" fill="#A8A29E" font-family="monospace" font-size="10">AVG TICKET PREP TIME</text>
+  <text x="58" y="426" fill="#FAF8F5" font-family="sans-serif" font-size="24" font-weight="700">06m 42s</text>
+
+  <!-- Pillar 2: Multi-Branch Management Dashboard -->
+  <rect x="282" y="92" width="236" height="376" rx="8" fill="#1B1B19" stroke="#2D2D2A"/>
+  <rect x="282" y="92" width="236" height="44" rx="8" fill="#242320"/>
+  <text x="300" y="119" fill="#FAF8F5" font-family="monospace" font-size="11" font-weight="700">02 // HQ ANALYTICS</text>
+
+  <text x="300" y="166" fill="#A8A29E" font-family="monospace" font-size="10">DAILY FRANCHISE GMV</text>
+  <text x="300" y="198" fill="#FAF8F5" font-family="sans-serif" font-size="26" font-weight="700">₦4,820,500</text>
+  <text x="300" y="218" fill="#4ADE80" font-family="monospace" font-size="11">+22.4% vs Last Tuesday</text>
+
+  <!-- Bar chart -->
+  <rect x="304" y="290" width="22" height="60" rx="3" fill="#3F3F46"/>
+  <rect x="336" y="272" width="22" height="78" rx="3" fill="#52525B"/>
+  <rect x="368" y="254" width="22" height="96" rx="3" fill="#71717A"/>
+  <rect x="400" y="264" width="22" height="86" rx="3" fill="#A1A1AA"/>
+  <rect x="432" y="236" width="22" height="114" rx="3" fill="#D97706"/>
+  <rect x="464" y="222" width="22" height="128" rx="3" fill="#F59E0B"/>
+  <line x1="298" y1="350" x2="500" y2="350" stroke="#2E2E2B"/>
+
+  <text x="300" y="384" fill="#FAF8F5" font-family="sans-serif" font-size="12" font-weight="600">Inventory Sync Status</text>
+  <text x="300" y="406" fill="#A8A29E" font-family="sans-serif" font-size="11">All 8 outlets synced in real time.</text>
+  <text x="300" y="432" fill="#D97706" font-family="monospace" font-size="11">STOCK ALERTS: 0 CRITICAL</text>
+
+  <!-- Pillar 3: Customer Mobile Ordering App -->
+  <rect x="536" y="92" width="236" height="376" rx="8" fill="#1B1B19" stroke="#2D2D2A"/>
+  <rect x="536" y="92" width="236" height="44" rx="8" fill="#242320"/>
+  <text x="554" y="119" fill="#FAF8F5" font-family="monospace" font-size="11" font-weight="700">03 // CUSTOMER APP</text>
+
+  <!-- Mobile Frame inside Pillar 3 -->
+  <rect x="564" y="152" width="180" height="296" rx="18" fill="#121211" stroke="#3F3F46" stroke-width="2"/>
+  <rect x="624" y="162" width="60" height="5" rx="2.5" fill="#27272A"/>
+  <text x="582" y="192" fill="#FAF8F5" font-family="sans-serif" font-size="13" font-weight="700">Order &amp; Track Live</text>
+  <rect x="582" y="206" width="144" height="58" rx="8" fill="#1F1F1D"/>
+  <text x="594" y="228" fill="#F59E0B" font-family="monospace" font-size="10">PREPARING IN KITCHEN</text>
+  <text x="594" y="248" fill="#FAF8F5" font-family="sans-serif" font-size="12" font-weight="600">Est. Pickup: 6 mins</text>
+
+  <rect x="582" y="276" width="144" height="48" rx="8" fill="#1C1C1A"/>
+  <text x="594" y="298" fill="#D6D3D1" font-family="sans-serif" font-size="11">Loyalty Rewards Balance</text>
+  <text x="594" y="314" fill="#4ADE80" font-family="monospace" font-size="11">2,450 PTS AVAILABLE</text>
+
+  <rect x="582" y="394" width="144" height="36" rx="8" fill="#D97706"/>
+  <text x="614" y="416" fill="#141413" font-family="sans-serif" font-size="11" font-weight="700">REORDER NOW</text>
+</svg>

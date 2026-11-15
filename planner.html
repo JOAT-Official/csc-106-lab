@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Interactive Academic Planner and Semester Study Timetable for Apaokagi Ashraf Abdulquadir — MIVA Open University B.Sc Cybersecurity." />
+  <title>Academic Planner | Apaokagi Ashraf Abdulquadir</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@700;800&amp;display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Persistent Navigation Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-logo" aria-label="Apaokagi Ashraf Abdulquadir Home">
+        <span class="brand-monogram">AA</span>
+        <span class="brand-meta">
+          <span>Ashraf Apaokagi</span>
+          <span class="brand-sub">MIVA OPEN UNIVERSITY</span>
+        </span>
+      </a>
+
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About Me</a></li>
+          <li><a href="projects.html" class="nav-link">Projects</a></li>
+          <li><a href="planner.html" class="nav-link active" aria-current="page">Academic Planner</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Toggle color theme">
+          <span>◐</span>
+          <span id="theme-toggle-label">DARK</span>
+        </button>
+        <button type="button" class="mobile-nav-toggle" id="mobile-nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+          MENU ☰
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main-content">
+    <!-- Page Header -->
+    <section class="section">
+      <div class="container">
+        <span class="eyebrow">Academic Management System • MIVA Open University</span>
+        <h1>Interactive Academic Planner</h1>
+        <p style="margin-top: 1rem; font-size: 1.08rem;">
+          Organize semester assignments, laboratory reports, and study milestones across your registered B.Sc Cybersecurity courses. Tasks are managed dynamically with JavaScript and automatically saved to browser <code>localStorage</code>.
+        </p>
+      </div>
+    </section>
+
+    <!-- Interactive Task Management Section -->
+    <section class="section">
+      <div class="container">
+        <div class="planner-card">
+          <div class="planner-stats-bar">
+            <div class="planner-counts" aria-live="polite">
+              <span>TOTAL TASKS: <strong id="total-count">0</strong></span>
+              <span>COMPLETED: <strong id="completed-count">0</strong></span>
+              <span>PENDING: <strong id="pending-count">0</strong></span>
+            </div>
+            <button type="button" class="btn btn-secondary btn-sm" id="reset-tasks-btn">
+              Reset Sample Tasks
+            </button>
+          </div>
+
+          <!-- Add New Task Form -->
+          <form id="task-form" class="task-form" novalidate>
+            <label for="task-input" class="skip-link">Academic Task Title</label>
+            <input
+              type="text"
+              id="task-input"
+              class="task-input"
+              placeholder="Enter an academic task (e.g., CSC 106: Deploy portfolio to GitHub Pages)..."
+              autocomplete="off"
+              aria-describedby="task-error"
+            />
+            <button type="submit" class="btn btn-amber" id="add-task-btn">
+              + Add Task
+            </button>
+          </form>
+          <span id="task-error" class="field-error" role="alert" aria-live="assertive"></span>
+
+          <!-- Dynamic Task List -->
+          <ul id="task-list" class="task-list" aria-label="Academic Tasks"></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Weekly Semester Study Timetable (HTML Table) -->
+    <section class="section-compact">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <span class="eyebrow">Weekly Study Schedule</span>
+            <h2>Semester Study &amp; Laboratory Timetable</h2>
+          </div>
+          <a href="about.html" class="btn btn-secondary btn-sm">View Full Coursework →</a>
+        </div>
+
+        <div class="table-wrapper">
+          <table class="data-table">
+            <caption>Structured Weekly Study Allocation • 8 Registered MIVA Open University Courses</caption>
+            <thead>
+              <tr>
+                <th scope="col">Day</th>
+                <th scope="col">Morning Block (09:00 – 11:30)</th>
+                <th scope="col">Afternoon Block (14:00 – 16:30)</th>
+                <th scope="col">Evening Focus (19:30 – 21:30)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Monday</strong></td>
+                <td><span class="code-pill">CSC 106</span> Intro to Web Technologies</td>
+                <td><span class="code-pill">MATH 102</span> Elementary Mathematics II</td>
+                <td>Frontend HTML/CSS/JS Lab Practice</td>
+              </tr>
+              <tr>
+                <td><strong>Tuesday</strong></td>
+                <td><span class="code-pill">COS 102</span> Problem Solving</td>
+                <td><span class="code-pill">PHY 102</span> General Physics II</td>
+                <td>Algorithm Flowcharts &amp; Pseudocode</td>
+              </tr>
+              <tr>
+                <td><strong>Wednesday</strong></td>
+                <td><span class="code-pill">COS 111</span> Technical Certification In Computing</td>
+                <td><span class="code-pill">PHY 108</span> General Physics Practical II</td>
+                <td>Lab Report Documentation &amp; Analysis</td>
+              </tr>
+              <tr>
+                <td><strong>Thursday</strong></td>
+                <td><span class="code-pill">GST 112</span> Nigerian People and Culture</td>
+                <td><span class="code-pill">GST 122</span> Communication Skills in English II</td>
+                <td>Technical Writing &amp; Essay Review</td>
+              </tr>
+              <tr>
+                <td><strong>Friday</strong></td>
+                <td><span class="code-pill">CSC 106</span> Web Project Sprint</td>
+                <td><span class="code-pill">MATH 102</span> Calculus &amp; Algebra Drills</td>
+                <td>Weekly Coursework Revision &amp; Quiz Prep</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td colspan="3">Weekly Academic Commitment</td>
+                <td>32.5 Hours / Week</td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p class="footer-copy">
+          © 2026 Apaokagi Ashraf Abdulquadir • MIVA Open University (COS 106 Term Project)
+        </p>
+      </div>
+      <ul class="footer-links" aria-label="Footer Navigation">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="planner.html">Academic Planner</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/planner.js"></script>
+</body>
+</html>
